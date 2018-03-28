@@ -12,7 +12,7 @@ namespace PipeCalc
         private double _maxExternalPressure;
         private double _minExternalPressure;
         private double _yieldStrength;
-        private double _tMinBurst
+        private double _tMinBurst;
 
         public PD8010_2(double diameter, double Pi, double Pe_max, double Pe_min, double yieldStrength, bool isOdControlled = true)
         {
