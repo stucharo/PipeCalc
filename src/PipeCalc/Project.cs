@@ -7,12 +7,13 @@ namespace PipeCalc
     {
         private ProjectSettings projectSettings;
         private List<Pipeline> Pipelines;
-        private List<ProjectWorkflow> projectWorkflow;
+        private List<ProjectWorkflow> projectWorkflows;
+        private List<ProjectSolution> projectSolutions;
 
         public Project()
         {
             projectSettings = new ProjectSettings();
-            projectWorkflow = new List<ProjectWorkflow>();
+            projectWorkflows = new List<ProjectWorkflow>();
         }
     }
 }
